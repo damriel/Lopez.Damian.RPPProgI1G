@@ -41,7 +41,6 @@ int main()
     ordenarCaracteres(cadena);
     printf("%s\n",cadena);
 
-    invertirCadena("UTN-FRA");
     return 0;
 }
 
@@ -63,15 +62,15 @@ void invertirCadena(char cadena[])
         strcpy(newCadena,cadena);
         for(int i=0; i<tam; i++)
         {
-            for(int j=strlen(cadena)-1; j>=0; j--)
+            for(int j=strlen(cadena); j>=0; j--)
             {
-                cadena[i]=newCadena[j];
+                cadena[j]=newCadena[i];
                 j--;
+                i++;
             }
             break;
         }
     }
-    printf("%s",cadena);
 }
 
 void ordenarCaracteres(char cadena[])
