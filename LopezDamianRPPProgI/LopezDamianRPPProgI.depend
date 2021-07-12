@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1626129270 source:c:\users\usuario\desktop\recu prog i\lopez.damian.rppprogi1g\lopezdamianrppprogi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
